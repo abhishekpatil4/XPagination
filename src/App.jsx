@@ -4,7 +4,7 @@ import { Table } from './components/Table'
 
 function App() {
   return <>
-    <div>
+    <div style={{display:'flex', flexDirection:'column', justifyContent:'center'}}>
       <h1 style={{textAlign:'center'}}>Employee Data Table</h1>
       <Table />
     </div>
