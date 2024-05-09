@@ -33,7 +33,7 @@ export const Table = () => {
                 setData(res.data.slice(pgNo, pgNo + 10));
             } catch (e) {
                 console.log(e.response.status);
-                alert("Error: Unable to fetch data from API");
+                alert("failed to fetch data");
             }
         }
         getData();
